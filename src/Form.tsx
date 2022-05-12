@@ -23,7 +23,7 @@ export default function Form(props: any) {
        
         />
 
-        <input type="submit" value="Submit"  className= "SubmitButton"  />
+        <input type="submit" value="Submit"  className= "SubmitButton" data-testid="button" />
       </form>
     </div>
   );

@@ -39,8 +39,8 @@ function Contact() {
   }, [numberOfContacts]);
 
   return (
-    <div>
-      <div className="container">
+    <div data-testid="ancestor">
+      <div className="container"  data-testid="descendant">
         <Form numberOfContacts={numberOfContacts} setNumberOfContacts={setNumberOfContacts} />
       </div>
       <Card contacts={contacts} />
