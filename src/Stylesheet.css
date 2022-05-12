@@ -1,0 +1,76 @@
+.userform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+
+.InputBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+.SubmitButton{
+
+  color: aliceblue;
+  background-color: red;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.container{
+    position: absolute;
+    width: 500;
+    height: 500;
+    right: 980px;
+    justify-content: center;
+    top:200px;
+}
+.backgroundImage{
+  background-image: url(/public/phone.jpg);
+  background-repeat: no-repeat;
+  background-size: 380px 720px;
+  background-position: 780px;
+  top:15px;
+  height: 100vh;
+ 
+}
+.subcontainer{
+  position: relative;
+  left: 806px;
+  top: 95px;
+  width: 304px;
+  height: 590px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+ 
+}
+.email{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  margin: 3% 0;
+  padding: 10px;
+}
+.img{
+  border-radius: 50%;
+  width:50px;
+}
+.font{
+  padding: 2%;
+  font-Size: 14px;
+}
+.card{
+  width:100% ;
+  background: 	rgb(255,255,255);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: auto;
+  box-shadow: 7px 10px 13px gainsboro;
+  
+
+}
+
