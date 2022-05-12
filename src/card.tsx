@@ -27,7 +27,7 @@ export default function Card(props: Props) {
               <div key={con.email} className="email">
                 <img src={con.picture.medium} className="img"alt="user"/>
                 <div className='font'>
-                  <b>{con.name.title}: {con.name.first} {con.name.last}</b>{" "}
+                  <b>{con.name.title}. {con.name.first} {con.name.last}</b>{" "}
                   <br />
                   {con.email}
                 </div>
